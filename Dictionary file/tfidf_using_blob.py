@@ -37,7 +37,7 @@ document3=tb(adddocument(document_3))
 # remove_punc=r"(\w+)"
 # word =re.findall(remove_punc,str(document1))
 # print(word)
-
+print("PRINTING DOCUMNT 1\n : : \n "+document1)
 
 bloblist = [document1, document2, document3]
 for i, blob in enumerate(bloblist):
