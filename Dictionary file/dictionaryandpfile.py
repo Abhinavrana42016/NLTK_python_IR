@@ -27,7 +27,7 @@ document1=adddocument(document_1)
 document2=adddocument(document_2)
 document3=adddocument(document_3)
 
-input ={1:document1,2:document2,3:document3}
+input ={1:document1, 2:document2, 3:document3}
 
 
 
