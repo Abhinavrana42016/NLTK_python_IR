@@ -19,3 +19,29 @@ def cosdis(v1, v2):
     common = v1[1].intersection(v2[1])
     # by definition of cosine distance we have
     return sum(v1[0][ch]*v2[0][ch] for ch in common)/v1[2]/v2[2]
+
+
+def adddocument(filename):
+    doc=''
+    for _ in filename:
+        doc+=_
+    return doc
+
+
+document_1 = adddocument(open('../my_corpus/All/JaD1.txt', 'r'))
+document_2 = adddocument(open('../my_corpus/All/JaD2.txt', 'r'))
+document_3 = adddocument(open('../my_corpus/All/JaD3.txt', 'r'))
+document1 = word2vec(document_1)
+document2 = word2vec(document_2)
+document3 = word2vec(document_3)
+
+print(" cosdis(document1,document2) : ")
+print(cosdis(document1,document2))
+print(" cosdis(document1,document3) : ")
+print(cosdis(document1,document3))
+print(" cosdis(document2,document3) : ")
+print(cosdis(document2,document3))
+
+
+
+
