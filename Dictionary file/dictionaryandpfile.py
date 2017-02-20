@@ -1,7 +1,5 @@
 
-
-
-def createTweetDict(inputDict):
+def createDict(inputDict):
     Dict = {}
     II = {}
     for Key, Text in inputDict.items():
@@ -31,7 +29,7 @@ input ={1:document1, 2:document2, 3:document3}
 
 
 
-Dic,InvI = createTweetDict(input)
+Dic,InvI = createDict(input)
 
 print(Dic)
 
