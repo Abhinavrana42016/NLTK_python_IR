@@ -37,7 +37,7 @@ document3=tb(adddocument(document_3))
 # remove_punc=r"(\w+)"
 # word =re.findall(remove_punc,str(document1))
 # print(word)
-print("PRINTING DOCUMNT 1\n : : \n "+document1)
+print("PRINTING DOCUMNT 1\n : : \n ",document1)
 
 bloblist = [document1, document2, document3]
 for i, blob in enumerate(bloblist):
@@ -45,5 +45,5 @@ for i, blob in enumerate(bloblist):
     scores = {word: tfidf(word, blob, bloblist) for word in blob.words}
     # ^ dictionary of words with its value
     sorted_words = sorted(scores.items(), reverse=True)
-    for word, score in sorted_words[:5]:
+    for word, score in sorted_words[:3]:
         print("\tWord: {}, TF-IDF: {}".format(word, round(score, 5)))

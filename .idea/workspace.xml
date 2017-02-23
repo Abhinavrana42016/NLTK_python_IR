@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8d03da9-5cf9-4a4b-8ad8-1ef6e6e23d9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ml_BD/minhash.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dictionary file/dictionaryandpfile.py" afterPath="$PROJECT_DIR$/Dictionary file/dictionaryandpfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dictionary file/tfidf_using_blob.py" afterPath="$PROJECT_DIR$/Dictionary file/tfidf_using_blob.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ml_BD/minhash.py" afterPath="$PROJECT_DIR$/Ml_BD/minhash.py" />
     </list>
     <ignored path="NLTK_python_IR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,9 +21,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/NLTK_python_IR$dictionaryandpfile.coverage" NAME="dictionaryandpfile Coverage Results" MODIFIED="1487585513220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionary file" />
     <SUITE FILE_PATH="coverage/NLTK_python_IR$cosin_test.coverage" NAME="cosin test Coverage Results" MODIFIED="1487560810275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionary file" />
-    <SUITE FILE_PATH="coverage/NLTK_python_IR$minhash.coverage" NAME="minhash Coverage Results" MODIFIED="1487585215443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ml_BD" />
+    <SUITE FILE_PATH="coverage/NLTK_python_IR$minhash.coverage" NAME="minhash Coverage Results" MODIFIED="1487825166226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ml_BD" />
     <SUITE FILE_PATH="coverage/NLTK_python_IR$stemming_words.coverage" NAME="stemming_words Coverage Results" MODIFIED="1487585536038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionary file/Stemming" />
-    <SUITE FILE_PATH="coverage/NLTK_python_IR$tfidf_using_blob.coverage" NAME="tfidf_using_blob Coverage Results" MODIFIED="1487557841627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionary file" />
+    <SUITE FILE_PATH="coverage/NLTK_python_IR$tfidf_using_blob.coverage" NAME="tfidf_using_blob Coverage Results" MODIFIED="1487825102071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionary file" />
     <SUITE FILE_PATH="coverage/NLTK_python_IR$d_using_blob.coverage" NAME="d_using_blob Coverage Results" MODIFIED="1487478329300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionary file" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -37,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dictionaryandpfile.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dictionaryandpfile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dictionary file/dictionaryandpfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="20">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,8 +48,8 @@
       <file leaf-file-name="tfidf_using_blob.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dictionary file/tfidf_using_blob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -62,7 +60,7 @@
       <file leaf-file-name="cosin test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dictionary file/cosin test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
+            <state relative-caret-position="131">
               <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
@@ -74,21 +72,19 @@
       <file leaf-file-name="stemming_words.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dictionary file/Stemming/stemming_words.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-200">
+            <state relative-caret-position="20">
               <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="minhash.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="minhash.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ml_BD/minhash.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#1#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="186">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="392" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,9 +106,9 @@
       <list>
         <option value="$PROJECT_DIR$/Dictionary file/Stemming/stemming_words.py" />
         <option value="$PROJECT_DIR$/Dictionary file/d_using_blob.py" />
-        <option value="$PROJECT_DIR$/Dictionary file/tfidf_using_blob.py" />
         <option value="$PROJECT_DIR$/Dictionary file/cosin test.py" />
         <option value="$PROJECT_DIR$/Dictionary file/dictionaryandpfile.py" />
+        <option value="$PROJECT_DIR$/Dictionary file/tfidf_using_blob.py" />
         <option value="$PROJECT_DIR$/Ml_BD/minhash.py" />
       </list>
     </option>
@@ -162,7 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,41 +185,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NLTK_python_IR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NLTK_python_IR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dictionary file" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NLTK_python_IR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NLTK_python_IR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dictionary file" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stemming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,7 +207,7 @@
       <recent name="C:\Users\rabhi\PycharmProjects\NLTK_python_IR" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.stemming_words">
+  <component name="RunManager" selected="Python.minhash">
     <configuration default="false" name="dictionaryandpfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -557,11 +521,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.stemming_words" />
-        <item index="1" class="java.lang.String" itemvalue="Python.dictionaryandpfile" />
-        <item index="2" class="java.lang.String" itemvalue="Python.minhash" />
-        <item index="3" class="java.lang.String" itemvalue="Python.cosin test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tfidf_using_blob" />
+        <item index="0" class="java.lang.String" itemvalue="Python.minhash" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tfidf_using_blob" />
+        <item index="2" class="java.lang.String" itemvalue="Python.stemming_words" />
+        <item index="3" class="java.lang.String" itemvalue="Python.dictionaryandpfile" />
+        <item index="4" class="java.lang.String" itemvalue="Python.cosin test" />
       </list>
     </recent_temporary>
   </component>
@@ -639,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487584920503</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Dictionary and Postings File">
+      <created>1487587556790</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1487587556790</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -650,7 +621,6 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5029542" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296" sideWeight="0.4970458" order="2" side_tool="false" content_ui="tabs" />
@@ -663,6 +633,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -697,6 +668,50 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Dictionary file/dictionaryandpfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dictionary file/tfidf_using_blob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dictionary file/cosin test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dictionary file/Stemming/stemming_words.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ml_BD/minhash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dictionary file/dictionaryandpfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
@@ -821,10 +836,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dictionary file/dictionaryandpfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dictionary file/tfidf_using_blob.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -833,7 +856,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dictionary file/cosin test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
+        <state relative-caret-position="131">
           <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -843,7 +866,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dictionary file/Stemming/stemming_words.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
+        <state relative-caret-position="20">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
@@ -851,18 +874,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ml_BD/minhash.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dictionary file/dictionaryandpfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="186">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="392" selection-end-column="31" />
           <folding />
         </state>
       </provider>
