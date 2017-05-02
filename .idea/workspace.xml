@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e8d03da9-5cf9-4a4b-8ad8-1ef6e6e23d9d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GUI/test1/base1.py" afterPath="$PROJECT_DIR$/GUI/test1/base1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GUI/test1/final_tfidf.py" afterPath="$PROJECT_DIR$/GUI/test1/final_tfidf.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GUI/test1/try1.py" afterPath="$PROJECT_DIR$/GUI/test1/try1.py" />
     </list>
     <ignored path="NLTK_python_IR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -718,7 +715,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493694070465</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="GUI 2">
+      <created>1493706897773</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1493706897773</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -767,7 +771,8 @@
     <MESSAGE value="Testing Cosine SImilarity Now" />
     <MESSAGE value="Adding all to it&#10;1. Dictionary&#10;2. Cosine(working on it)&#10;3. tfidf ising textblob&#10;" />
     <MESSAGE value="Dictionary and Postings File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dictionary and Postings File" />
+    <MESSAGE value="GUI 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
