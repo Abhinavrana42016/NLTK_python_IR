@@ -4,13 +4,14 @@ from textblob import TextBlob as tb
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import glob
+import string
 from tkinter import *
 
 stop_words = set(stopwords.words("English"))
 
 root = Tk()
 
-
+root.title("Information Retrieval (Beta v0.1)")
 def tf(word, blob):
     return blob.words.count(word) / len(blob.words)
 
@@ -31,7 +32,7 @@ def tfidf(word, blob, bloblist):
     return tf(word, blob) * idf(word, bloblist)
 
 
-def stop_wordss(strings,p):
+def stop_wordss(strings):
     list = []
     str = word_tokenize(strings)
     #P to add here
@@ -44,7 +45,15 @@ def stop_wordss(strings,p):
     print(returnstring, "\n\n\n\n")
     return returnstring
 
-
+def unpunk(docs):
+    intab = "!()-[]{};:'\"\,<>./?@#$%^&*_~"
+    outtab = "                            "
+    trantab = str.maketrans(intab, outtab)
+    print(str(docs.translate(trantab)))
+    return str(docs.translate(trantab))
+#
+# Initial processing Starts here and branches out.
+# #
 def insertword(thword, b,p):
     print("\nSearching for ", thword, "\n")
     file_names = sorted(glob.glob("../../my_corpus/All/*"))
@@ -53,8 +62,9 @@ def insertword(thword, b,p):
     documents = []
     s = ""
     for file in files:
-        s = file.read()
-        if b: stop_wordss(s,p)
+        if p: s=unpunk(file.read())
+        else: s=file.read()
+        if b: stop_wordss(s)# like a toggle
 
         documents.append(s)
     [file.close() for file in files]
@@ -113,6 +123,6 @@ stopcheck = Checkbutton(root, text="StopWords", variable=booleanVar)
 stopcheck.grid(row=2, column=1, sticky=W)
 
 punchInCheck = Checkbutton(root, text="Remove Punctuation", variable=punchVar)
-punchInCheck.grid(row=3, col=1, sticky=W)
+punchInCheck.grid(row=3, column=1, sticky=W)
 
 root.mainloop()

@@ -34,13 +34,13 @@ document_3 = adddocument(open('../my_corpus/All/JaD3.txt', 'r'))
 document1 = word2vec(document_1)
 document2 = word2vec(document_2)
 document3 = word2vec(document_3)
-
+ddragon
 print(" cosdis(document1,document2) : ")
-print(cosdis(document1,document2))
+print(cosdis("dragon",document2))
 print(" cosdis(document1,document3) : ")
-print(cosdis(document1,document3))
+print(cosdis("dragon",document3))
 print(" cosdis(document2,document3) : ")
-print(cosdis(document2,document3))
+print(cosdis("dragon",document3))
 
 
 
